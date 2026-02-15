@@ -3,58 +3,62 @@
 ## 📊 Project Overview
 
 This project analyzes Air Quality Index (AQI) data across multiple monitoring stations in Jabalpur to identify pollution hotspots, temporal trends, and dominant pollutants.
-Data was cleaned in Excel, validated using SQL, and visualized in Power BI to generate meaningful environmental insights.
+The dataset was cleaned in Excel, validated using SQL, and visualized in Power BI to generate actionable environmental insights.
 
 ---
 
 ## 📷 Dashboard Preview
 
-<img width="1722" height="694" alt="Dashboard_preview" src="https://github.com/user-attachments/assets/ebf7f134-60c8-4730-a020-6f412b7b72c4" />
+<img width="1722" height="694" alt="Dashboard_preview" src="https://github.com/user-attachments/assets/8e191329-6f2a-4d4c-a073-1e5af5d40001" />
 
 
 ---
 
 ## 🔍 Key Insights & Findings
 
-* AQI levels showed noticeable spikes during several months, indicating periodic pollution buildup.
-* **PM2.5** emerged as the dominant pollutant contributing to poor air quality days.
-* One monitoring station consistently recorded the **highest average AQI**, making it the most critical pollution hotspot.
-* Most AQI readings fell under **Moderate to Poor** categories, showing persistent air quality concerns.
-* Several extreme AQI days crossed severe thresholds, highlighting short-term pollution spikes.
-* AQI trends fluctuated across months rather than remaining consistently clean.
+* **Peak Pollution Period:** AQI levels showed noticeable spikes during winter months and late-year periods, indicating seasonal pollution buildup.
+* **Primary Pollutant:** **PM2.5** was the dominant pollutant responsible for most “Poor” and “Very Poor” AQI days across stations.
+* **Critical Hotspot:** Among all stations, one station consistently recorded the **highest average AQI**, indicating localized pollution concentration compared to other monitoring locations.
+* **Trend Analysis:** AQI trends showed fluctuations across months, with several periods of moderate-to-poor air quality rather than consistently clean conditions.
+* **Worst AQI Days:** A few extreme AQI days crossed severe thresholds, highlighting short-term pollution spikes.
+* **AQI Category Distribution:** Most recorded days fell under **Moderate to Poor** AQI categories, indicating persistent air quality concerns.
 
 ---
 
-## 🛠 Tools & Technologies Used
+## 🛠 Tech Stack & Process
 
-* **Excel** → Data cleaning & preparation
-* **SQL** → KPI validation and backend checks
-* **Power BI** → Dashboard & visualization
+### 1️⃣ Data Cleaning – Excel
 
----
+* Cleaned and standardized multiple station datasets
+* Handled null values and formatting issues
+* Appended all station files into one final dataset
+* Created additional calculated columns for analysis
 
-## 📈 Dashboard Features
+### 2️⃣ Data Validation – SQL
 
-* Station-wise AQI comparison
-* Monthly & daily AQI trends
-* Dominant pollutant analysis
-* Worst AQI day identification
-* Interactive filters & slicers
+* Validated KPIs such as:
 
----
+  * Average AQI
+  * Maximum AQI
+  * Station-wise averages
+  * Worst AQI days
+* Ensured dashboard numbers match backend calculations
 
-## 🧹 Data Processing Workflow
+### 3️⃣ Data Visualization – Power BI
 
-1. Cleaned raw station datasets
-2. Standardized formats and handled missing values
-3. Appended all stations into one dataset
-4. Created calculated columns
-5. Validated KPIs using SQL
-6. Built interactive Power BI dashboard
+* Built interactive dashboard with:
+
+  * Station-wise AQI comparison
+  * Monthly and daily trends
+  * Dominant pollutant analysis
+  * Worst AQI day tracking
+* Added slicers and filters for dynamic analysis
 
 ---
 
 ## 📂 Repository Structure
+
+
 
 ```
 ├── 01_Data
