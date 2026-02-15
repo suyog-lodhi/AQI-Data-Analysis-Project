@@ -3,74 +3,75 @@
 ## 📊 Project Overview
 
 This project analyzes Air Quality Index (AQI) data across multiple monitoring stations in Jabalpur to identify pollution hotspots, temporal trends, and dominant pollutants.
-The dataset was cleaned in Excel, validated using SQL, and visualized in Power BI to generate actionable environmental insights.
+Data was cleaned in Excel, validated using SQL, and visualized in Power BI to generate meaningful environmental insights.
 
 ---
 
 ## 📷 Dashboard Preview
 
-<img width="1722" height="694" alt="Dashboard_preview" src="https://github.com/user-attachments/assets/3343941b-3373-41b8-b6d1-b104cda9f6a7" />
+<img width="1722" height="694" alt="Dashboard_preview" src="https://github.com/user-attachments/assets/ebf7f134-60c8-4730-a020-6f412b7b72c4" />
 
 
 ---
 
 ## 🔍 Key Insights & Findings
 
-* **Peak Pollution Period:** AQI levels showed noticeable spikes during winter months and late-year periods, indicating seasonal pollution buildup.
-* **Primary Pollutant:** **PM2.5** was the dominant pollutant responsible for most “Poor” and “Very Poor” AQI days across stations.
-* **Critical Hotspot:** Among all stations, one station consistently recorded the **highest average AQI**, indicating localized pollution concentration compared to other monitoring locations.
-* **Trend Analysis:** AQI trends showed fluctuations across months, with several periods of moderate-to-poor air quality rather than consistently clean conditions.
-* **Worst AQI Days:** A few extreme AQI days crossed severe thresholds, highlighting short-term pollution spikes.
-* **AQI Category Distribution:** Most recorded days fell under **Moderate to Poor** AQI categories, indicating persistent air quality concerns.
+* AQI levels showed noticeable spikes during several months, indicating periodic pollution buildup.
+* **PM2.5** emerged as the dominant pollutant contributing to poor air quality days.
+* One monitoring station consistently recorded the **highest average AQI**, making it the most critical pollution hotspot.
+* Most AQI readings fell under **Moderate to Poor** categories, showing persistent air quality concerns.
+* Several extreme AQI days crossed severe thresholds, highlighting short-term pollution spikes.
+* AQI trends fluctuated across months rather than remaining consistently clean.
 
 ---
 
-## 🛠 Tech Stack & Process
+## 🛠 Tools & Technologies Used
 
-### 1️⃣ Data Cleaning – Excel
+* **Excel** → Data cleaning & preparation
+* **SQL** → KPI validation and backend checks
+* **Power BI** → Dashboard & visualization
 
-* Cleaned and standardized multiple station datasets
-* Handled null values and formatting issues
-* Appended all station files into one final dataset
-* Created additional calculated columns for analysis
+---
 
-### 2️⃣ Data Validation – SQL
+## 📈 Dashboard Features
 
-* Validated KPIs such as:
+* Station-wise AQI comparison
+* Monthly & daily AQI trends
+* Dominant pollutant analysis
+* Worst AQI day identification
+* Interactive filters & slicers
 
-  * Average AQI
-  * Maximum AQI
-  * Station-wise averages
-  * Worst AQI days
-* Ensured dashboard numbers match backend calculations
+---
 
-### 3️⃣ Data Visualization – Power BI
+## 🧹 Data Processing Workflow
 
-* Built interactive dashboard with:
-
-  * Station-wise AQI comparison
-  * Monthly and daily trends
-  * Dominant pollutant analysis
-  * Worst AQI day tracking
-* Added slicers and filters for dynamic analysis
+1. Cleaned raw station datasets
+2. Standardized formats and handled missing values
+3. Appended all stations into one dataset
+4. Created calculated columns
+5. Validated KPIs using SQL
+6. Built interactive Power BI dashboard
 
 ---
 
 ## 📂 Repository Structure
 
 ```
-├── data/
-│   ├── raw_data/
-│   └── cleaned_data/
+├── 01_Data
+│   ├── Raw_data
+│   └── Cleaned_data
 │
-├── sql/
-│   └── sql_queries.sql
-│
-├── dashboard/
+├── 02_Dashboard
 │   └── Jabalpur_AQI_Dashboard.pbix
 │
-├── images/
+├── 03_Images
 │   └── dashboard_overview.png
+│
+├── 04_sql_queries
+│   └── sql_queries.sql
+│
+├── 05_Presentation
+│   └── AQI_Project_Presentation.pptx
 │
 └── README.md
 ```
@@ -80,9 +81,9 @@ The dataset was cleaned in Excel, validated using SQL, and visualized in Power B
 ## 💡 Recommendations
 
 * Focus pollution control measures on stations showing consistently high AQI.
-* Strengthen monitoring during peak pollution months.
+* Strengthen monitoring during peak pollution periods.
 * Use dominant pollutant trends to guide emission-reduction strategies.
-* Improve public awareness during poor AQI periods.
+* Improve public awareness during poor AQI days.
 
 ---
 
@@ -93,5 +94,3 @@ Aspiring Data Analyst | Excel | SQL | Power BI
 
 LinkedIn:
 [www.linkedin.com/in/suyog-lodhi-94a45825a](http://www.linkedin.com/in/suyog-lodhi-94a45825a)
-
----
