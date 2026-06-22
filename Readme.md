@@ -1,4 +1,4 @@
-# 🌍 Air Quality Index (AQI) Analysis Dashboard – Jabalpur
+# 🌍 Air Quality Index (AQI) Analysis Dashboard – Jabalpur [ Madhya Pradesh, India]
 
 ## 📊 Project Overview
 
